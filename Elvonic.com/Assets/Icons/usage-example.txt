@@ -1,0 +1,12 @@
+<!-- 1) Put icon-sprite.svg content once at the top of your page (or load it via fetch + inject) -->
+<!-- 2) Use any icon anywhere like this: -->
+
+<svg width="24" height="24" style="color:#d4af37">
+  <use href="icon-sprite.svg#icon-home"></use>
+</svg>
+
+<!-- Change color with CSS since icons use currentColor: -->
+<style>
+  .icon { color: #d4af37; }      /* gold */
+  .icon:hover { color: #ffffff; }
+</style>
